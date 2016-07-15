@@ -1,0 +1,25 @@
+{
+  "name": "patrol-root-login",
+  "version": "1.0.0",
+  "description": "detect when root user log in to AWS consoles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ediyes/patrol-root-login.git"
+  },
+  "author": "ediyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ediyes/patrol-root-login/issues"
+  },
+  "homepage": "https://github.com/ediyes/patrol-root-login#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "lambda-cfn": "^0.1.4"
+  }
+}
